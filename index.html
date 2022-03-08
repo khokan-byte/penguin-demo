@@ -6,56 +6,211 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashinb </title>
+
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a40ffe6870.js" crossorigin="anonymous"></script>
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="291.11" height="39.27"></a>
+            <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#">product</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+
             </div>
         </div>
     </nav>
 </header>
 
 <body>
-    <h1>Welcome to Penguin Fashion</h1>
+    <div class="container d-flex align-items-center p-3 ms-auto mb-5 bg-warning p-2 text-dark bg-opacity-25 rounded">
+        <div>
+            <h1 class="text-uppercase fs-1 fw-bold"><span class="text-warning">be the penguins</span> <br> of winter
+            </h1>
+            <p class="fs-5 text-wrap" style="width: 30rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                assumenda praesentium itaque eos
+                eius
+                excepturi porro doloremque nemo. Eos dolores consequuntur a error maiores! Possimus commodi sunt
+                perspiciatis in corrupti.</p>
+            <button type="button" class="btn btn-primary text-uppercase"><i class="fa-solid fa-bag-shopping"></i>buy
+                now</button>
+        </div>
+        <div class="ms-auto"><img src="images/model.png" alt=""></div>
+    </div>
+
+
+    <!-- women products -->
+
+
+    <div class="container">
+        <h1 class="fw-1 text-uppercase">women jacket</h1>
+    </div>
+    <!-- cards -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-1.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-2.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-3.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- mens jacket -->
+
+    <div class="container">
+        <h1 class="fw-1 text-uppercase">Mens jacket</h1>
+    </div>
+    <!-- cards -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-4.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-5.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow p-3 mb-5 bg-body rounded h-100 p-3">
+                    <img src="images/jacket-6.png"
+                        class="card-img-top p-3 bg-secondary bg-gradient p-2 text-dark bg-opacity-25 rounded-3"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Coat Jacket</h5>
+                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h1 class="text-warning">$234</h1>
+                            </div>
+                            <div><button type="button" class="btn btn-warning text-uppercase"><i
+                                        class="fa-solid fa-bag-shopping"></i>buy now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- last part -->
+    <div class="container">
+        <div class="card" style="width: 36rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+        </div>
+    </div>
+
+
 
 
 
